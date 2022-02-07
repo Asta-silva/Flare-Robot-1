@@ -74,9 +74,9 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-GROUP_START_IMG = "https://telegra.ph/file/2cd6f97e0cf04d63cabf4.mp4"
+GROUP_START_IMG = "https://telegra.ph/file/1246fc837e2dbcff3d6c5.mp4"
 
-FLARE_PHOTO = "https://telegra.ph/file/7672c21c06fcef2044edc.jpg"
+FLARE_PHOTO = "https://telegra.ph/file/2d06d511598cb496e08cd.jpg"
 
 PM_START_TEXT = """
 ────「 {} 」────
