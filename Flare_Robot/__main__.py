@@ -397,7 +397,7 @@ def get_help(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Help",
-                                url="t.me/Flare_Robot?start=ghelp_{}".format(
+                                url="t.me/itz_rem_robot?start=ghelp_{}".format(
                                     context.bot.username, module,
                                 ),
                             ),
@@ -413,7 +413,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Help",
-                            url="t.me/Flare_Robot?start=help".format(context.bot.username),
+                            url="t.me/itz_rem_robot?start=help".format(context.bot.username),
                         ),
                     ],
                 ],
