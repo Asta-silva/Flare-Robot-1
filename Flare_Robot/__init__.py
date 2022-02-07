@@ -89,7 +89,7 @@ if ENV:
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
     REDIS_URL = os.environ.get("REDIS_URL", None)
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
-    START_CHAT = os.environ.get("SUPPORT_CHAT", None)
+    START_CHAT = os.environ.get("START_CHAT", "animetalks_4all")
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None)
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
     BOT_ID = os.environ.get ("BOT_ID", None)
