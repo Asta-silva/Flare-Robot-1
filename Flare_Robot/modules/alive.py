@@ -9,7 +9,7 @@ from Flare_Robot.events import register
 from Flare_Robot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/7672c21c06fcef2044edc.jpg"
+PHOTO = "https://telegra.ph/file/2d06d511598cb496e08cd.jpg"
 
 
 @register(pattern=("/alive"))
