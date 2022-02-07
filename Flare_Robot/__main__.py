@@ -265,7 +265,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_animation(
-            GROUP_START_IMG, caption= "I won't sleep until I satisfy you!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            GROUP_START_IMG, caption= "ʜᴇʏ! ᴄᴜᴛᴇ ʀᴇᴍᴇᴍʙᴇʀ ɪs ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ!!!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -656,7 +656,7 @@ def main():
 
     if START_CHAT is not None and isinstance(START_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{START_CHAT}", "[hey! I am back from OYO!!](https://telegra.ph/file/0a59d28dd0e64497b1b3f.jpg)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{START_CHAT}", "[ʜᴇʏ! ɪ ᴀᴍ ʙᴀᴄᴋ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴅᴇᴀʀ!!](https://telegra.ph/file/0a59d28dd0e64497b1b3f.jpg)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
