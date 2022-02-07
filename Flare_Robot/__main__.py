@@ -106,7 +106,7 @@ List of all the Modules:
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add Flare To Your Group",
+                            text=f"Add REM To Your Group",
                             url=f"https://telegram.dog/itz_rem_robot?startgroup=true")
                     ],
                    [
