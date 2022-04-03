@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-GROUP_START_IMG = "https://telegra.ph/file/f19b2e6230cfe15b6a178.jpg"
+GROUP_START_IMG = "https://telegra.ph/file/8f4418771e723ab82295b.jpg"
 
 FLARE_PHOTO = "https://telegra.ph/file/3883fe16c3e776625a97b.jpg"
 
@@ -85,11 +85,11 @@ PM_START_TEXT = """
 ➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 ➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Help Buttons Below To Know My Abilities[.](https://telegra.ph/file/e83cf9e9760a89388cc06.jpg) ××
+➛ Try The Help Buttons Below To Know My Abilities[.](https://telegra.ph/file/2456a5ccad7a1841f41c2.jpg) ××
 """
 
 HELP_STRINGS = """
-Hey there, I'm Flare Robot !
+Hey there, Hori Robot !
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
@@ -106,7 +106,7 @@ List of all the Modules:
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add Flare To Your Group",
+                            text=f"Add Hori To Your Group",
                             url=f"https://telegram.dog/@{BOT_USERNAME}?startgroup=true")
                     ],
                    [
