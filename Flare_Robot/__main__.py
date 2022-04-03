@@ -74,9 +74,9 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-GROUP_START_IMG = "https://telegra.ph/file/2cd6f97e0cf04d63cabf4.mp4"
+GROUP_START_IMG = "https://telegra.ph/file/f19b2e6230cfe15b6a178.jpg"
 
-FLARE_PHOTO = "https://telegra.ph/file/2a171330f0ad1fc02465c.jpg"
+FLARE_PHOTO = "https://telegra.ph/file/3883fe16c3e776625a97b.jpg"
 
 PM_START_TEXT = """
 ────「 {} 」────
@@ -85,7 +85,7 @@ PM_START_TEXT = """
 ➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 ➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Help Buttons Below To Know My Abilities[.](https://telegra.ph/file/852e96d6c59f2ccad32df.jpg) ××
+➛ Try The Help Buttons Below To Know My Abilities[.](https://telegra.ph/file/e83cf9e9760a89388cc06.jpg) ××
 """
 
 HELP_STRINGS = """
