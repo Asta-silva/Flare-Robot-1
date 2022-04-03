@@ -264,7 +264,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_animation(
+        update.effective_message.reply_photo(
             GROUP_START_IMG, caption= "Miyamura-san Matte-Matte\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
