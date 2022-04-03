@@ -111,16 +111,16 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/OtaKu_Gang1"),
+                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/MyAnimeMania"),
                        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
                      ],
                     [                  
                        InlineKeyboardButton(
                              text="🚑 Support",
-                             url=f"https://telegram.dog/Freia_Support"),
+                             url=f"https://telegram.dog/Hori_Support"),
                        InlineKeyboardButton(
                              text="📢 Updates",
-                             url="https://t.me/Freia_Updates")
+                             url="https://t.me/Hori_Updates")
                      ], 
     ]
 
